@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Policy — Dalmere Form Theory | How We Use Cookies</title>
+    <meta name="description" content="Cookies policy for Dalmere Form Theory. Learn about the cookies we use, why we use them, and how you can manage your preferences.">
+    <meta name="author" content="Dalmere Form Theory">
+    <meta property="og:title" content="Cookies Policy — Dalmere Form Theory">
+    <meta property="og:description" content="How Dalmere Form Theory uses cookies and similar technologies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dalmereformtheory.com/cookies.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://www.dalmereformtheory.com/cookies.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* ============================================
+           RESET & BASE (same as main site)
+           ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color-paper: #fbfaf8;
+            --color-ink: #1e1e1c;
+            --color-ink-secondary: #4a4a46;
+            --color-ink-muted: #7a7a74;
+            --color-border: #e2ded7;
+            --color-border-light: #eeece8;
+            --color-accent: #8b6f4e;
+            --color-accent-hover: #6d573c;
+            --color-sidebar-bg: #f5f3ef;
+            --color-white: #ffffff;
+            --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+            --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --max-width: 1280px;
+            --content-width: 720px;
+            --sidebar-width: 300px;
+            --gutter: 32px;
+            --section-spacing: 64px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--color-paper);
+            color: var(--color-ink);
+            line-height: 1.75;
+            font-size: 18px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            color: var(--color-ink);
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+
+        a:hover {
+            color: var(--color-accent);
+        }
+
+        /* ============================================
+           TYPOGRAPHY
+           ============================================ */
+        h1, h2, h3, h4, h5 {
+            font-family: var(--font-display);
+            font-weight: 500;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            color: var(--color-ink);
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            font-weight: 600;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.35rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            font-family: var(--font-ui);
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--color-ink-secondary);
+        }
+
+        /* ============================================
+           LAYOUT
+           ============================================ */
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--gutter);
+        }
+
+        .container--narrow {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 var(--gutter);
+        }
+
+        /* ============================================
+           HEADER (same as contact)
+           ============================================ */
+        .site-header {
+            border-bottom: 1px solid var(--color-border);
+            background-color: var(--color-paper);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 18px var(--gutter);
+        }
+
+        .site-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: var(--color-ink);
+            line-height: 1.1;
+        }
+
+        .site-logo span {
+            display: block;
+            font-family: var(--font-ui);
+            font-size: 0.6rem;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--color-ink-muted);
+            margin-top: 2px;
+        }
+
+        .site-logo:hover {
+            color: var(--color-ink);
+        }
+
+        .main-nav {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+        }
+
+        .main-nav a {
+            font-family: var(--font-ui);
+            font-size: 0.82rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: var(--color-ink-secondary);
+        }
+
+        .main-nav a:hover {
+            color: var(--color-ink);
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 22px;
+            height: 1.5px;
+            background: var(--color-ink);
+            margin: 5px 0;
+            transition: 0.2s;
+        }
+
+        /* ============================================
+           COOKIES PAGE STYLES
+           ============================================ */
+        .cookies-page {
+            padding: var(--section-spacing) 0 0;
+        }
+
+        .cookies-header {
+            max-width: var(--content-width);
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+
+        .cookies-header .eyebrow {
+            font-family: var(--font-ui);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            margin-bottom: 12px;
+        }
+
+        .cookies-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 16px;
+        }
+
+        .cookies-header .standfirst {
+            font-size: 1.1rem;
+            color: var(--color-ink-secondary);
+            line-height: 1.6;
+            font-style: italic;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        .cookies-meta {
+            font-family: var(--font-ui);
+            font-size: 0.78rem;
+            color: var(--color-ink-muted);
+            text-align: center;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid var(--color-border-light);
+            max-width: var(--content-width);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cookies-body {
+            max-width: var(--content-width);
+            margin: 0 auto;
+        }
+
+        .cookies-body h2 {
+            margin-top: 48px;
+            margin-bottom: 16px;
+            font-size: 1.6rem;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--color-border-light);
+        }
+
+        .cookies-body h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .cookies-body h3 {
+            font-family: var(--font-ui);
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 10px;
+            color: var(--color-ink);
+        }
+
+        .cookies-body p {
+            font-size: 0.98rem;
+            line-height: 1.8;
+            margin-bottom: 1.1rem;
+        }
+
+        .cookies-body ul {
+            margin: 0 0 1.25rem 1.5rem;
+            padding: 0;
+        }
+
+        .cookies-body ul li {
+            font-size: 0.98rem;
+            line-height: 1.8;
+            color: var(--color-ink-secondary);
+            margin-bottom: 0.4rem;
+        }
+
+        .cookies-body ul li::marker {
+            color: var(--color-accent);
+        }
+
+        .cookies-body a {
+            color: var(--color-accent);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .cookies-body a:hover {
+            color: var(--color-accent-hover);
+        }
+
+        .cookies-body strong {
+            color: var(--color-ink);
+            font-weight: 600;
+        }
+
+        .cookies-highlight {
+            background: var(--color-sidebar-bg);
+            border-left: 3px solid var(--color-accent);
+            padding: 20px 24px;
+            margin: 28px 0;
+        }
+
+        .cookies-highlight p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            color: var(--color-ink-secondary);
+        }
+
+        .cookies-highlight p:last-child {
+            margin-bottom: 0;
+        }
+
+        .cookies-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0 28px;
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+        }
+
+        .cookies-table th {
+            text-align: left;
+            padding: 10px 14px;
+            background: var(--color-sidebar-bg);
+            border: 1px solid var(--color-border);
+            font-weight: 600;
+            color: var(--color-ink);
+            letter-spacing: 0.02em;
+        }
+
+        .cookies-table td {
+            padding: 10px 14px;
+            border: 1px solid var(--color-border-light);
+            color: var(--color-ink-secondary);
+            vertical-align: top;
+        }
+
+        .cookies-table td:first-child {
+            font-weight: 500;
+            color: var(--color-ink);
+        }
+
+        .cookies-contact-box {
+            background: var(--color-white);
+            border: 1px solid var(--color-border);
+            padding: 28px 32px;
+            margin: 36px 0 0;
+        }
+
+        .cookies-contact-box h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: var(--color-ink);
+        }
+
+        .cookies-contact-box p {
+            font-size: 0.92rem;
+            margin-bottom: 8px;
+        }
+
+        .cookies-contact-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .cookies-contact-box a {
+            color: var(--color-accent);
+        }
+
+        /* ============================================
+           FOOTER (same as contact)
+           ============================================ */
+        .site-footer {
+            background: var(--color-ink);
+            color: #b8b5ad;
+            padding: 56px 0 32px;
+            margin-top: var(--section-spacing);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--gutter);
+        }
+
+        .footer-brand .site-logo {
+            color: #f0ede8;
+            margin-bottom: 16px;
+        }
+
+        .footer-brand .site-logo span {
+            color: #7a7a74;
+        }
+
+        .footer-brand p {
+            font-size: 0.88rem;
+            line-height: 1.7;
+            color: #8a877f;
+            max-width: 320px;
+        }
+
+        .footer-col h4 {
+            font-family: var(--font-ui);
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #d4d0c8;
+            margin-bottom: 16px;
+        }
+
+        .footer-col a {
+            display: block;
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+            color: #8a877f;
+            margin-bottom: 10px;
+        }
+
+        .footer-col a:hover {
+            color: #d4d0c8;
+        }
+
+        .footer-bottom {
+            max-width: var(--max-width);
+            margin: 40px auto 0;
+            padding: 24px var(--gutter) 0;
+            border-top: 1px solid #33332f;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .footer-bottom p {
+            font-family: var(--font-ui);
+            font-size: 0.72rem;
+            color: #5a5a54;
+            margin-bottom: 0;
+        }
+
+        .footer-bottom a {
+            font-family: var(--font-ui);
+            font-size: 0.72rem;
+            color: #5a5a54;
+        }
+
+        .footer-bottom a:hover {
+            color: #d4d0c8;
+        }
+
+        /* ============================================
+           RESPONSIVE
+           ============================================ */
+        @media (max-width: 1024px) {
+            .cookies-header h1 {
+                font-size: 2.4rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --gutter: 20px;
+                --section-spacing: 48px;
+            }
+
+            body {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            .cookies-header h1 {
+                font-size: 2rem;
+            }
+
+            .main-nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--color-paper);
+                border-bottom: 1px solid var(--color-border);
+                flex-direction: column;
+                padding: 20px var(--gutter);
+                gap: 16px;
+            }
+
+            .main-nav.open {
+                display: flex;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            .cookies-body h2 {
+                font-size: 1.4rem;
+                margin-top: 36px;
+            }
+
+            .cookies-table {
+                font-size: 0.78rem;
+            }
+
+            .cookies-table th,
+            .cookies-table td {
+                padding: 8px 10px;
+            }
+
+            .cookies-contact-box {
+                padding: 22px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .cookies-header h1 {
+                font-size: 1.7rem;
+            }
+
+            .cookies-table {
+                font-size: 0.72rem;
+            }
+
+            .cookies-table th,
+            .cookies-table td {
+                padding: 6px 8px;
+            }
+        }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============================================
+     SITE HEADER
+     ============================================ -->
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="site-logo" aria-label="Dalmere Form Theory — Home">
+            Dalmere Form Theory
+            <span>Interior Design & Architecture</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.main-nav').classList.toggle('open')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="terms.html">Terms Of Privacy</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookies.html">Cookies Policy</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="categories.html">Categories</a></li>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- ============================================
+     COOKIES POLICY PAGE
+     ============================================ -->
+<section class="cookies-page">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="cookies-header">
+            <div class="eyebrow">Legal</div>
+            <h1>Cookies Policy</h1>
+            <p class="standfirst">How Dalmere Form Theory uses cookies and similar technologies to improve your reading experience.</p>
+            <div class="cookies-meta">
+                Last updated: <strong>1 January 2025</strong> · Effective immediately
+            </div>
+        </div>
+
+        <!-- Body -->
+        <div class="cookies-body">
+
+            <!-- Intro -->
+            <p>This Cookies Policy explains how Dalmere Form Theory ("we", "us", "our") uses cookies and similar tracking technologies on our website at <a href="https://www.dalmereformtheory.com">www.dalmereformtheory.com</a> (the "Site").</p>
+            <p>It should be read alongside our <a href="privacy.html">Privacy Policy</a>, which explains how we handle your personal information more broadly.</p>
+            <p>By continuing to browse the Site, you agree to our use of cookies as described in this policy. If you do not agree, you should adjust your browser settings or discontinue use of the Site.</p>
+
+            <div class="cookies-highlight">
+                <p><strong>In short:</strong> We use a small number of cookies to keep the Site running smoothly, understand how readers use it, and remember your preferences. You can control or delete cookies at any time through your browser.</p>
+            </div>
+
+            <!-- 1. What Are Cookies -->
+            <h2>1. What Are Cookies?</h2>
+            <p>Cookies are small text files that are placed on your computer, tablet, or mobile device when you visit a website. They are widely used to make websites work more efficiently and to provide information to the site owners.</p>
+            <p>Cookies may be <strong>session cookies</strong> (which are deleted when you close your browser) or <strong>persistent cookies</strong> (which remain on your device for a set period or until you delete them).</p>
+            <p>We also use similar technologies such as <strong>web beacons</strong>, <strong>pixel tags</strong>, and <strong>local storage</strong>, which function in comparable ways. For simplicity, we refer to all of these as "cookies" in this policy.</p>
+
+            <!-- 2. How We Use Cookies -->
+            <h2>2. How We Use Cookies</h2>
+            <p>We use cookies for the following purposes:</p>
+            <ul>
+                <li><strong>Essential cookies</strong> — necessary for the Site to function properly, such as remembering your cookie preferences or enabling secure areas</li>
+                <li><strong>Analytics cookies</strong> — help us understand how readers interact with the Site, which pages are most popular, and how we can improve our content and navigation</li>
+                <li><strong>Preference cookies</strong> — remember choices you make, such as your preferred reading settings or language</li>
+                <li><strong>Performance cookies</strong> — collect information about how the Site performs, including loading times and any errors, so we can fix them</li>
+            </ul>
+            <p>We do <strong>not</strong> use cookies for advertising or retargeting purposes.</p>
+
+            <!-- 3. Types of Cookies We Use -->
+            <h2>3. Specific Cookies We Use</h2>
+            <p>Below is a list of the main cookies we use and their purposes:</p>
+
+            <table class="cookies-table">
+                <thead>
+                    <tr>
+                        <th>Cookie Name</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>dft_consent</td>
+                        <td>Essential</td>
+                        <td>Stores your cookie consent preferences</td>
+                        <td>1 year</td>
+                    </tr>
+                    <tr>
+                        <td>dft_session</td>
+                        <td>Essential</td>
+                        <td>Maintains your session while browsing</td>
+                        <td>Session</td>
+                    </tr>
+                    <tr>
+                        <td>_ga</td>
+                        <td>Analytics</td>
+                        <td>Google Analytics — distinguishes unique users</td>
+                        <td>2 years</td>
+                    </tr>
+                    <tr>
+                        <td>_gid</td>
+                        <td>Analytics</td>
+                        <td>Google Analytics — distinguishes users</td>
+                        <td>24 hours</td>
+                    </tr>
+                    <tr>
+                        <td>_gat</td>
+                        <td>Analytics</td>
+                        <td>Google Analytics — throttles request rate</td>
+                        <td>1 minute</td>
+                    </tr>
+                    <tr>
+                        <td>dft_prefs</td>
+                        <td>Preference</td>
+                        <td>Remembers your reading preferences</td>
+                        <td>6 months</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Third-party cookies (such as Google Analytics) are governed by the privacy policies of those third parties. We recommend reviewing their policies for more information.</p>
+
+            <!-- 4. Third-Party Cookies -->
+            <h2>4. Third-Party Cookies</h2>
+            <p>Some cookies on our Site are placed by third-party services that appear on our pages. We do not control these cookies. The main third-party cookies we use are:</p>
+            <ul>
+                <li><strong>Google Analytics</strong> — for understanding site traffic and reader behaviour. You can opt out via <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google's opt-out tool</a>.</li>
+                <li><strong>Font providers</strong> — Google Fonts may set cookies when loading typography. These are typically essential for displaying the Site correctly.</li>
+            </ul>
+            <p>We do not use social media cookies, advertising cookies, or any other tracking technology for commercial purposes.</p>
+
+            <!-- 5. Managing Cookies -->
+            <h2>5. How to Manage Cookies</h2>
+            <p>You have the right to decide whether to accept or reject cookies. You can exercise your cookie preferences by:</p>
+            <ul>
+                <li><strong>Browser settings</strong> — most browsers allow you to refuse or delete cookies. The help function in your browser should tell you how.</li>
+                <li><strong>Our cookie banner</strong> — when you first visit the Site, you can choose which categories of cookies to accept.</li>
+                <li><strong>Opt-out tools</strong> — for analytics cookies, you can use the Google Analytics opt-out browser add-on.</li>
+            </ul>
+            <p>Please note that if you disable or refuse cookies, some parts of the Site may become inaccessible or not function properly. Essential cookies cannot be disabled through our consent tool, as they are necessary for the Site to operate.</p>
+
+            <h3>5.1 Browser-Specific Instructions</h3>
+            <ul>
+                <li><strong>Google Chrome:</strong> Settings → Privacy and security → Cookies and other site data</li>
+                <li><strong>Mozilla Firefox:</strong> Options → Privacy & Security → Cookies and Site Data</li>
+                <li><strong>Safari:</strong> Preferences → Privacy → Cookies and website data</li>
+                <li><strong>Microsoft Edge:</strong> Settings → Cookies and site permissions → Cookies and site data</li>
+            </ul>
+
+            <!-- 6. Do Not Track -->
+            <h2>6. Do Not Track Signals</h2>
+            <p>Some browsers have a "Do Not Track" (DNT) feature that lets you tell websites you do not want to be tracked. Our Site does not currently respond to DNT signals, as there is no common industry standard for how to interpret them. We do, however, respect your cookie preferences as set through our consent tool and browser settings.</p>
+
+            <!-- 7. Changes -->
+            <h2>7. Changes to This Cookies Policy</h2>
+            <p>We may update this Cookies Policy from time to time to reflect changes in technology, legislation, or our practices. When we make material changes, we will:</p>
+            <ul>
+                <li>Update the "Last updated" date at the top of this page</li>
+                <li>Post a notice on the Site where appropriate</li>
+                <li>Where required by law, seek your consent again</li>
+            </ul>
+            <p>We encourage you to review this policy periodically to stay informed about how we use cookies.</p>
+
+            <!-- 8. Contact -->
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions or concerns about this Cookies Policy or our use of cookies, please contact us:</p>
+
+            <div class="cookies-contact-box">
+                <h3>Cookies & Data Protection Contact</h3>
+                <p><strong>Dalmere Form Theory</strong></p>
+                <p>14 Colville Mews<br>London W11 2DA<br>United Kingdom</p>
+                <p>Email: <a href="mailto:privacy@dalmereformtheory.com">privacy@dalmereformtheory.com</a></p>
+                <p>For general editorial inquiries: <a href="mailto:hello@dalmereformtheory.com">hello@dalmereformtheory.com</a></p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <a href="index.html" class="site-logo">
+                Dalmere Form Theory
+                <span>Interior Design & Architecture</span>
+            </a>
+            <p>An independent editorial publication examining the principles that shape meaningful spaces. Published from London since 2019.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Categories</h4>
+            <a href="index.html#interiors">Interior Design</a>
+            <a href="index.html#architecture">Architecture</a>
+            <a href="index.html#materials">Materials</a>
+            <a href="index.html#lighting">Lighting</a>
+            <a href="index.html#space">Space Planning</a>
+        </div>
+        <div class="footer-col">
+            <h4>Reading</h4>
+            <a href="index.html#featured">Featured Articles</a>
+            <a href="index.html#guides">Guides</a>
+            <a href="index.html#faq">FAQ</a>
+            <a href="index.html#newsletter">Newsletter</a>
+        </div>
+        <div class="footer-col">
+            <h4>Information</h4>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="cookies.html">Cookies</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Dalmere Form Theory. All rights reserved.</p>
+        <p>Designed for reading. Built for thinking.</p>
+    </div>
+</footer>
+
+<!-- ============================================
+     SCHEMA MARKUP
+     ============================================ -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Cookies Policy — Dalmere Form Theory",
+    "description": "Cookies policy for Dalmere Form Theory. Learn about the cookies we use, why we use them, and how you can manage your preferences.",
+    "url": "https://www.dalmereformtheory.com/cookies.html",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Dalmere Form Theory",
+        "email": "privacy@dalmereformtheory.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "14 Colville Mews",
+            "addressLocality": "London",
+            "postalCode": "W11 2DA",
+            "addressCountry": "GB"
+        }
+    }
+}
+</script>
+
+<!-- ============================================
+     JAVASCRIPT
+     ============================================ -->
+<script>
+    // Close mobile nav when clicking outside
+    document.addEventListener('click', function(e) {
+        const nav = document.querySelector('.main-nav');
+        const toggle = document.querySelector('.nav-toggle');
+        if (nav && nav.classList.contains('open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
+            nav.classList.remove('open');
+        }
+    });
+
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+
+            const target = document.querySelector(targetId);
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                document.querySelector('.main-nav')?.classList.remove('open');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
